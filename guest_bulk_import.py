@@ -69,14 +69,14 @@ def build_guest_user_xml(guest_users):
         guest_access_info = SubElement(guestuser, f"guestAccessInfo")
 
         # Add child elements under guestAccessInfo
-        start_date = SubElement(guest_access_info, f"fromDate")
-        start_date.text = user["fromDate"]
-        end_date = SubElement(guest_access_info, f"location")
-        end_date.text = "San Jose"
+        from_date = SubElement(guest_access_info, f"fromDate")  # e.g. 07/21/2025 00:00
+        from_date.text = user["fromDate"]
+        location = SubElement(guest_access_info, f"location")
+        location.text = "San Jose"
         end_date = SubElement(guest_access_info, f"toDate")  # e.g. 07/22/2025 23:59
         end_date.text = user["toDate"]
-        end_date = SubElement(guest_access_info, f"validDays")
-        end_date.text = "1"
+        valid_days = SubElement(guest_access_info, f"validDays")
+        valid_days.text = "1"
 
         # Add child elements under ns4:guestuser
         guest_info = SubElement(guestuser, f"guestInfo")
@@ -141,3 +141,4 @@ if __name__ == "__main__":
     # print("Generated XML Payload:")
     # print(xml_payload)
     bulk_create_guest_users_xml(xml_payload)
+
