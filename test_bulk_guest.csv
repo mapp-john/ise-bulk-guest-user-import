@@ -1,7 +1,7 @@
 ﻿firstName,lastName,userName,emailAddress,password,guestType,fromDate,toDate
-test,api1,testapi1,testapi1@cisco.com,Cisco123,Daily (default),7/22/2025 00:00,7/23/2025 23:59
-test,api2,testapi2,testapi2@cisco.com,Cisco123,Daily (default),7/22/2025 00:00,7/23/2025 23:59
-test,api3,testapi3,testapi3@cisco.com,Cisco123,Daily (default),7/22/2025 00:00,7/23/2025 23:59
-test,api4,testapi4,testapi4@cisco.com,Cisco123,Daily (default),7/22/2025 00:00,7/23/2025 23:59
-test,api5,testapi5,testapi5@cisco.com,Cisco123,Daily (default),7/22/2025 00:00,7/23/2025 23:59
-test,api6,testapi6,testapi6@cisco.com,Cisco123,Daily (default),7/22/2025 00:00,7/23/2025 23:59
+test,api1,testapi1,testapi1@domain.com,Password,Daily (default),7/22/2025 00:00,7/23/2025 23:59
+test,api2,testapi2,testapi2@domain.com,Password,Daily (default),7/22/2025 00:00,7/23/2025 23:59
+test,api3,testapi3,testapi3@domain.com,Password,Daily (default),7/22/2025 00:00,7/23/2025 23:59
+test,api4,testapi4,testapi4@domain.com,Password,Daily (default),7/22/2025 00:00,7/23/2025 23:59
+test,api5,testapi5,testapi5@domain.com,Password,Daily (default),7/22/2025 00:00,7/23/2025 23:59
+test,api6,testapi6,testapi6@domain.com,Password,Daily (default),7/22/2025 00:00,7/23/2025 23:59
